@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color:grey;
+    max-width: 30%;
+    width: 100%;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.judul{
+    text-align: center;
+    font-size: 28px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 0.5px solid;
+}
+
+.deskripsi{
+    text-align: center;
+}
+
+.makanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.makanan table{
+   padding: 5px;
+   border: 0.5px solid;
+   border-radius: 3px;
+}
+
+.makanan th,
+.makanan td{
+    padding: 5px;
+
+}
+
+.makanan table th{
+    border-bottom: 0.5px solid;
+}
+
+.makanan tr a{
+    color: orange;
+}
+
+.makanan tr a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
