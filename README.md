@@ -1,2 +1,2 @@
 # PraktikumPWEB
-Untuk praktikum pweb
+Dokumentasi Pemrograman Web
