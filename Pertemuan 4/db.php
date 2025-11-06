@@ -1,6 +1,6 @@
 <?php 
 function getConnection(){
-    $host = "localhost:3307";
+    $host = "localhost";
     $db_name = "pert4_npm_db";
     $username = "root";
     $password = "";
@@ -12,4 +12,5 @@ function getConnection(){
     }
     return $conn;
 }
+
 ?>
